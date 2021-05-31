@@ -107,12 +107,13 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_LEGACY_INPUT_MANAGER
+-define:ENABLE_INPUT_SYSTEM
 -define:VFX_HAS_TIMELINE
 -define:VFX_HAS_TERRAINMODULE
 -define:VFX_HAS_UI
 -define:VFX_HAS_PHYSICS
 -define:VFX_HAS_AUDIO
+-define:VFX_HAS_INPUT_SYSTEM_PACKAGE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
@@ -318,6 +319,7 @@
 -r:"/Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD/Library/PackageCache/com.unity.analytics@3.5.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
 -r:"/Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll"
 -r:"/Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
