@@ -1,0 +1,649 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51935
+Successfully changed project path to: /Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD
+/Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-05-28 11:40:02.982 Unity[9903:514781] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2021-05-28 11:40:02.982 Unity[9903:514781] Metal devices available: 2
+2021-05-28 11:40:02.982 Unity[9903:514781] 0: AMD Radeon Pro 560X (high power)
+2021-05-28 11:40:02.983 Unity[9903:514781] 1: Intel(R) UHD Graphics 630 (low power)
+2021-05-28 11:40:02.984 Unity[9903:514781] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56903
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000815 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.659 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 6.165086 ms (FindLiveObjects: 0.152027 ms CreateObjectMapping: 0.062964 ms MarkObjects: 5.883766 ms  DeleteObjects: 0.065080 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.442213 seconds.
+  path: Assets/NewShaderVariants.shadervariants
+  artifactKey: Guid(e286dbc0162b842daaaec6d8ae8428e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewShaderVariants.shadervariants using Guid(e286dbc0162b842daaaec6d8ae8428e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ae36deae1cd3a4a6933e67e6e30ef5') in 0.237033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.202 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.9 MB.
+System memory in use after: 167.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 6.616652 ms (FindLiveObjects: 0.218685 ms CreateObjectMapping: 0.119902 ms MarkObjects: 6.131126 ms  DeleteObjects: 0.145699 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001418 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2467 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.5 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 6.782628 ms (FindLiveObjects: 0.264735 ms CreateObjectMapping: 0.137804 ms MarkObjects: 6.264580 ms  DeleteObjects: 0.114210 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1000.298708 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(93e0e706efad24e77af58c521e430f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(93e0e706efad24e77af58c521e430f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce03e78e301fc02118be4bb462b8b576') in 0.222835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.549196 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee25b6fc3f638ca892c6895c7b68e7c') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 737.881135 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18a8a43fa94f3f0cd8e6081521f8329') in 0.007275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.699566 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cd1309ffea5854c071ca3f41dfcc21') in 0.397339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.067868 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda146632a0c58f12889fbccb39eebcb') in 0.359026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png
+  artifactKey: Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png using Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89e3cc9a1e2711560205f0c07daf75e') in 0.009559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9d17f884ef175a084e0a2fd70848b') in 0.012269 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2471 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.7 MB.
+System memory in use after: 187.8 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 6.550429 ms (FindLiveObjects: 0.213786 ms CreateObjectMapping: 0.117355 ms MarkObjects: 6.114976 ms  DeleteObjects: 0.103206 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 445.177533 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1036dcfab508c3c9426432af600e12b2') in 0.016696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.508516 seconds.
+  path: Assets/NewUnlitShader.shader
+  artifactKey: Guid(8fc71c59fb66e4be9b66ed42c5cad649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewUnlitShader.shader using Guid(8fc71c59fb66e4be9b66ed42c5cad649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2977953cc4c651045925c48143412510') in 0.218935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.317630 seconds.
+  path: Assets/New Shader Sub Graph.shadersubgraph
+  artifactKey: Guid(f1bc37134b2dc4bf8bfab175a731f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Sub Graph.shadersubgraph using Guid(f1bc37134b2dc4bf8bfab175a731f588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0166d5253d51dbf022a68b64b4e84a1') in 0.216446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.560939 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(93e0e706efad24e77af58c521e430f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(93e0e706efad24e77af58c521e430f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904143e88057376e1ad79de593aa6c4') in 0.006441 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Platform modules already initialized, skipping
+Shader 'HDRP/TerrainLit': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3722 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.0 MB.
+System memory in use after: 259.7 MB.
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4167.
+Total: 12.656040 ms (FindLiveObjects: 0.333040 ms CreateObjectMapping: 0.189457 ms MarkObjects: 6.877247 ms  DeleteObjects: 5.255027 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.735740 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53a0769ad51853c3c0b3330b35de716') in 0.080910 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.0 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 131 unused Assets to reduce memory usage. Loaded Objects now: 4168.
+Total: 13.130247 ms (FindLiveObjects: 0.306056 ms CreateObjectMapping: 0.211875 ms MarkObjects: 7.105755 ms  DeleteObjects: 5.505477 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.662491 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83b73b72d5530def00488d04ad97e4a') in 0.004291 seconds 
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> df81f1b87b76640fe9bf6d8dc26cd42c
+Refreshing native plugins compatible for Editor in 6.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 131 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 190.3 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 4169.
+Total: 13.544317 ms (FindLiveObjects: 0.291071 ms CreateObjectMapping: 0.204884 ms MarkObjects: 7.474573 ms  DeleteObjects: 5.572848 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 94.006128 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+ -> (artifact id: '7b7796a9466d5f8678be43ae263ef945') in 48.754916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc847b9116133b09ffafdc6862edd832') in 0.002881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.943278 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7357a3db48caeed028d8752bd1232191') in 0.002329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.630152 seconds.
+  path: Assets/HDRPDefaultResources
+  artifactKey: Guid(fe1ba5c87efa24000bfe625c0c8952c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources using Guid(fe1ba5c87efa24000bfe625c0c8952c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af867065c058fe9f22bfb883891657ef') in 0.001149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.813184 seconds.
+  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
+  artifactKey: Guid(78049124317304a1ab897a6435138a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(78049124317304a1ab897a6435138a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c450d70aa08020d216b7c1fdf00de52d') in 0.205580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/HDRPDefaultResources/SkinDiffusionProfile.asset
+  artifactKey: Guid(2eaf0f6c62e9f4756a0aab221c087c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/SkinDiffusionProfile.asset using Guid(2eaf0f6c62e9f4756a0aab221c087c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8341e2732e217135b5bec6c42f5a31f') in 0.002036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset
+  artifactKey: Guid(355150c397280409ebb07147f622d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/FoliageDiffusionProfile.asset using Guid(355150c397280409ebb07147f622d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b619197a82c918d5c9259afa3ec0db9f') in 0.002436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
+  artifactKey: Guid(df81f1b87b76640fe9bf6d8dc26cd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(df81f1b87b76640fe9bf6d8dc26cd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6b4fc2bd89813c90dd6e691f1c9640') in 0.006176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(54b7f37ee94a74ad9aa6da5bf5c3523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(54b7f37ee94a74ad9aa6da5bf5c3523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3598951fbba34ad880c4076fdf86b2be') in 0.003604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.492186 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad993d8ed29ac7eb2f379735e2a3df7') in 0.004549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.439387 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3680f7c25e5af8ccc6ca85eb9246cd8') in 0.002425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.194263 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '1b7609d4c50b2b15eaa8c8a9195a9871') in 0.108897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.606434 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDMaterial.mat
+  artifactKey: Guid(73c176f402d2c2f4d929aa5da7585d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDMaterial.mat using Guid(73c176f402d2c2f4d929aa5da7585d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'HDRP/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 310
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 428
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 428
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'HDRP/Lit': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 310
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 428
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'HDRP/Lit': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 428
+
+Compiling Vertex program with DECALS_3RT _NORMALMAP_TANGENT_SPACE _DISABLE_SSR_TRANSPARENT
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: _SURFACE_TYPE_TRANSPARENT DOTS_INSTANCING_ON LOD_FADE_CROSSFADE DEBUG_DISPLAY LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SHADOWMASK DECALS_OFF DECALS_4RT LIGHT_LAYERS INSTANCING_ON _ALPHATEST_ON _ALPHATOMASK_ON _DEPTHOFFSET_ON _DOUBLESIDED_ON _VERTEX_DISPLACEMENT _PIXEL_DISPLACEMENT _VERTEX_DISPLACEMENT_LOCK_OBJECT_SCALE _DISPLACEMENT_LOCK_TILING_SCALE _PIXEL_DISPLACEMENT_LOCK_OBJECT_SCALE _REFRACTION_PLANE _REFRACTION_SPHERE _REFRACTION_THIN _EMISSIVE_MAPPING_PLANAR _EMISSIVE_MAPPING_TRIPLANAR _EMISSIVE_MAPPING_BASE _MAPPING_PLANAR _MAPPING_TRIPLANAR _REQUIRE_UV2 _REQUIRE_UV3 _NORMALMAP _MASKMAP _BENTNORMALMAP _EMISSIVE_COLOR_MAP _ENABLESPECULAROCCLUSION _SPECULAR_OCCLUSION_NONE _SPECULAR_OCCLUSION_FROM_BENT_NORMAL_MAP _HEIGHTMAP _TANGENTMAP _ANISOTROPYMAP _DETAIL_MAP _SUBSURFACE_MASK_MAP _THICKNESSMAP _IRIDESCENCE_THICKNESSMAP _SPECULARCOLORMAP _TRANSMITTANCECOLORMAP _DISABLE_DECALS _DISABLE_SSR _ENABLE_GEOMETRIC_SPECULAR_AA _ENABLE_FOG_ON_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC _MATERIAL_FEATURE_SUBSURFACE_SCATTERING _MATERIAL_FEATURE_TRANSMISSION _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _MATERIAL_FEATURE_IRIDESCENCE _MATERIAL_FEATURE_SPECULAR_COLOR _ADD_PRECOMPUTED_VELOCITY UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '04b8706026a75a7f092d73c30d692205') in 0.132825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.792400 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd7621c99a1679a8a6ea26b3d9b22f3') in 0.002966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.392168 seconds.
+  path: Assets/a.mat
+  artifactKey: Guid(a61d69db8d22d460697cbece8a7e61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/a.mat using Guid(a61d69db8d22d460697cbece8a7e61b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Hidden/HDRP/DownsampleDepth': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 10
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'Hidden/HDRP/DownsampleDepth': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 95
+
+Compiling Vertex program with MIN_DOWNSAMPLE
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: CHECKERBOARD_DOWNSAMPLE OUTPUT_FIRST_MIP_OF_MIPCHAIN UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '1b975f17ca17ff1b7672f6ee056da171') in 0.091842 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3910 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 316.5 MB.
+System memory in use after: 304.7 MB.
+
+Unloading 280 unused Assets to reduce memory usage. Loaded Objects now: 4346.
+Total: 13.133683 ms (FindLiveObjects: 0.326265 ms CreateObjectMapping: 0.212992 ms MarkObjects: 7.329103 ms  DeleteObjects: 5.263944 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 236.577065 seconds.
+  path: Assets/b441f5542d93b8246e1dcfe44709da45.png
+  artifactKey: Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/b441f5542d93b8246e1dcfe44709da45.png using Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292eedd6163afeab9fbc7cc9b599204e') in 0.046146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.856259 seconds.
+  path: Assets/New Sprite Atlas.spriteatlas
+  artifactKey: Guid(12edcb6423c574ddc9ba871b94a57d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Sprite Atlas.spriteatlas using Guid(12edcb6423c574ddc9ba871b94a57d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df2543dbcd87faffc582a66385a3f32') in 0.212072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.215391 seconds.
+  path: Assets/b441f5542d93b8246e1dcfe44709da45.png
+  artifactKey: Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/b441f5542d93b8246e1dcfe44709da45.png using Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c157dfe6ce6b3a4779ac3f3c8066459') in 0.044519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.073376 seconds.
+  path: Assets/b441f5542d93b8246e1dcfe44709da45.png
+  artifactKey: Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/b441f5542d93b8246e1dcfe44709da45.png using Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31703a907a33149f83479305825c95d7') in 0.013625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.831807 seconds.
+  path: Assets/b441f5542d93b8246e1dcfe44709da45.png
+  artifactKey: Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/b441f5542d93b8246e1dcfe44709da45.png using Guid(1bdec8bfe1b03493d98fab819e6591ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd8f579f44293fb19ade947ed583548') in 0.042057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.284623 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da25919f25a930208b48bff644a9a330') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.966519 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e0befa5a6ac924a66a013e800740133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e0befa5a6ac924a66a013e800740133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b02aadd51f720eb2969ef47e7411f8') in 0.001811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.866946 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62860a0751c467555c53c7aa672b3f7') in 0.004688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.962190 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f351c453f0286e846fd58bc26646639a') in 0.664738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 193.740299 seconds.
+  path: Assets/SpriteHD.shadergraph
+  artifactKey: Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteHD.shadergraph using Guid(a4a5fbd3c027b40b289c0f31f9d308cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b0ad2ffb8cb0d3dd35ed8ad32e904') in 0.006754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.247422 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c38e5413e191585902c516abb778e96') in 0.088369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.481102 seconds.
+  path: Assets/Shader Graphs_SpriteHD.mat
+  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dcfe133ac33d832c9be24abf59d9bd') in 0.090458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.909586 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkBlack.png
+  artifactKey: Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkBlack.png using Guid(33d3dd2c39dfd49a3b2d36b20225624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119f147240ddf1787e6eaae51de65048') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png
+  artifactKey: Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/UnityEngine.Purchasing.IAPButtonIcon.png using Guid(55e457740fe60405dac77af143e1a867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f8005ee4f2d644be74e0df851a6f7d') in 0.008279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7bc27d22b04f2528735abb08807398') in 0.022554 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
