@@ -12,255 +12,135 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52969
+50581
 Successfully changed project path to: /Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD
 /Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 115.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 107.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/simon.stoyanov/Documents/GitHub/Collect/Collect-2D-HD/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-05-31 12:30:04.877 Unity[8529:585972] Color LCD preferred device: AMD Radeon Pro 560X (high power)
-2021-05-31 12:30:04.877 Unity[8529:585972] Metal devices available: 2
-2021-05-31 12:30:04.878 Unity[8529:585972] 0: AMD Radeon Pro 560X (high power)
-2021-05-31 12:30:04.878 Unity[8529:585972] 1: Intel(R) UHD Graphics 630 (low power)
-2021-05-31 12:30:04.879 Unity[8529:585972] Using device AMD Radeon Pro 560X (high power)
+2021-06-03 09:54:35.322 Unity[4490:90937] Color LCD preferred device: AMD Radeon Pro 560X (high power)
+2021-06-03 09:54:35.322 Unity[4490:90937] Metal devices available: 2
+2021-06-03 09:54:35.322 Unity[4490:90937] 0: AMD Radeon Pro 560X (high power)
+2021-06-03 09:54:35.323 Unity[4490:90937] 1: Intel(R) UHD Graphics 630 (low power)
+2021-06-03 09:54:35.324 Unity[4490:90937] Using device AMD Radeon Pro 560X (high power)
 Initializing Metal device caps: AMD Radeon Pro 560X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56529
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56490
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001013 seconds.
+Registered in 0.000995 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 103.12 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.656 seconds
+- Completed reload, in  2.463 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002068 seconds.
+Registered in 0.001648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 102.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
+- Completed reload, in  1.932 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.6 MB.
-System memory in use after: 246.8 MB.
+Unloading 4034 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 264.3 MB.
+System memory in use after: 264.5 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4182.
-Total: 8.090351 ms (FindLiveObjects: 0.378252 ms CreateObjectMapping: 0.240897 ms MarkObjects: 7.381408 ms  DeleteObjects: 0.088394 ms)
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4481.
+Total: 8.559118 ms (FindLiveObjects: 0.333710 ms CreateObjectMapping: 0.290492 ms MarkObjects: 7.837776 ms  DeleteObjects: 0.095354 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
 ========================================================================
 Received Import Request.
-  path: Assets/Rendering/Shader Graphs_SpriteHD.mat
-  artifactKey: Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rendering/Shader Graphs_SpriteHD.mat using Guid(d0f1e3a87055c497eb277c7c9832b0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
- -> (artifact id: '6e7f04e388f02002ca6b9682442faecf') in 1.674685 seconds 
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e359b20d60d0e1f5a74a72de4390736') in 0.505292 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.747675 seconds.
-  path: Assets/Art/Animation/Player_Phys.physicMaterial
-  artifactKey: Guid(e9a41dfd5113e4ac0ba5fb8315e73585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/Player_Phys.physicMaterial using Guid(e9a41dfd5113e4ac0ba5fb8315e73585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2574d74f3cd1334839026ee71954cf2c') in 0.213710 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004039 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.877 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3817 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 284.3 MB.
-System memory in use after: 284.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4528.
-Total: 8.012642 ms (FindLiveObjects: 0.326148 ms CreateObjectMapping: 0.235672 ms MarkObjects: 7.401279 ms  DeleteObjects: 0.048170 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003955 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.559 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.0 MB.
-System memory in use after: 279.2 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4531.
-Total: 7.915628 ms (FindLiveObjects: 0.309507 ms CreateObjectMapping: 0.205289 ms MarkObjects: 7.348498 ms  DeleteObjects: 0.051083 ms)
-
+  Time since last request: 11.768208 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c41b7d8c90c57e10fefee9cda4e1c6') in 0.083912 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 699.087424 seconds.
-  path: Packages/com.unity.collab-proxy
-  artifactKey: Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy using Guid(1adad61bfb44214ee3e887b5febc4396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7837b352734e5da8176d6703b10e0397') in 0.007305 seconds 
+  Time since last request: 4.914598 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7cce3e51a2781991293eda0c7cd6c1') in 0.068197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.211565 seconds.
-  path: Packages/com.unity.collab-proxy/package.json
-  artifactKey: Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/package.json using Guid(743fda8c4b219c8429fb5a77ede1c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163d753fa6e6557b76c3a23f79301315') in 0.206060 seconds 
+  Time since last request: 31.100327 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1e43601836fb9abf5a40d637edfa05') in 0.070373 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001661 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 283.3 MB.
-System memory in use after: 283.5 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4534.
-Total: 7.472821 ms (FindLiveObjects: 0.293594 ms CreateObjectMapping: 0.202475 ms MarkObjects: 6.930488 ms  DeleteObjects: 0.045416 ms)
-
+Received Import Request.
+  Time since last request: 10.876915 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6344b95fc4cf7daf58891c317ba1a7') in 0.080967 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004999 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.743 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 283.6 MB.
-System memory in use after: 283.8 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4537.
-Total: 7.759684 ms (FindLiveObjects: 0.309906 ms CreateObjectMapping: 0.218029 ms MarkObjects: 7.182762 ms  DeleteObjects: 0.047612 ms)
-
+Received Import Request.
+  Time since last request: 7.204667 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a67dc49a69d558a079594089b6de9d') in 0.093907 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.907 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3633 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 283.9 MB.
-System memory in use after: 284.1 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 4540.
-Total: 8.577065 ms (FindLiveObjects: 0.328053 ms CreateObjectMapping: 0.238170 ms MarkObjects: 7.955971 ms  DeleteObjects: 0.053751 ms)
-
+Received Import Request.
+  Time since last request: 23.721695 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ab0423b74dbf559d6e52b62c534a18') in 0.078862 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002124 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.04 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3929 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 256.4 MB.
-System memory in use after: 247.2 MB.
-
-Unloading 254 unused Assets to reduce memory usage. Loaded Objects now: 4621.
-Total: 4.925916 ms (FindLiveObjects: 0.336814 ms CreateObjectMapping: 0.219515 ms MarkObjects: 1.833360 ms  DeleteObjects: 2.535257 ms)
-
+Received Import Request.
+  Time since last request: 5.584148 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2f3777d9cbcb00be4cc7ad1b2aee67') in 0.078594 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.9 MB.
-System memory in use after: 164.2 MB.
-
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4621.
-Total: 2.217811 ms (FindLiveObjects: 0.404607 ms CreateObjectMapping: 0.198810 ms MarkObjects: 1.576224 ms  DeleteObjects: 0.037425 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:srp/default-shader: 0d000000000000000000000000000000 -> 00a0da0d000000000000000000000000
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Received Import Request.
+  Time since last request: 25.127254 seconds.
+  path: Assets/Art/Sprites/slime-Sheet.png
+  artifactKey: Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/slime-Sheet.png using Guid(afcdbdb072af2417387981ddd12c52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2498612a88dbe486c65368bed67ccf') in 0.034969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.377400 seconds.
+  path: Assets/Art/Sprites/character.jpeg
+  artifactKey: Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/character.jpeg using Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300fefb4a686d04ea4c14843f09e57f6') in 0.221603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.416678 seconds.
+  path: Assets/Art/Sprites/character.jpeg
+  artifactKey: Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/character.jpeg using Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d968ff6817acc99bcf57bba2d29452') in 0.022325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.320151 seconds.
+  path: Assets/Art/Sprites/character.jpeg
+  artifactKey: Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Sprites/character.jpeg using Guid(6abdf0e7397de4f6cb9a951ecc9648f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcc2adbb1f245f6b32753a200a99f38') in 0.184707 seconds 

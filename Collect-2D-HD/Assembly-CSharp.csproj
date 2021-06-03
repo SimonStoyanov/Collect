@@ -56,9 +56,17 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/fpsCounter.cs" />
-    <Compile Include="Assets/Scripts/Movement.cs" />
-    <Compile Include="Assets/Scripts/PlayerInput.cs" />
+    <Compile Include="Assets/Scripts/Internal/fpsCounter.cs" />
+    <Compile Include="Assets/Scripts/Internal/PlayerInput.cs" />
+    <Compile Include="Assets/Scripts/Player/Movement.cs" />
+    <Compile Include="Assets/Scripts/Commands.cs" />
+    <Compile Include="Assets/Scripts/Jobs/ICharacterJob.cs" />
+    <Compile Include="Assets/Scripts/Jobs/Apprentice.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerCharacter.cs" />
+    <Compile Include="Assets/Scripts/Entities/Interfaces.cs" />
+    <Compile Include="Assets/Scripts/Player/Character.cs" />
+    <Compile Include="Assets/Scripts/Jobs/Warrior.cs" />
+    <Compile Include="Assets/Scripts/BattleManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

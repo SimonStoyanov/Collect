@@ -346,9 +346,17 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/fpsCounter.cs"
-"Assets/Scripts/Movement.cs"
-"Assets/Scripts/PlayerInput.cs"
+"Assets/Scripts/BattleManager.cs"
+"Assets/Scripts/Commands.cs"
+"Assets/Scripts/Entities/Interfaces.cs"
+"Assets/Scripts/Internal/fpsCounter.cs"
+"Assets/Scripts/Internal/PlayerInput.cs"
+"Assets/Scripts/Jobs/Apprentice.cs"
+"Assets/Scripts/Jobs/ICharacterJob.cs"
+"Assets/Scripts/Jobs/Warrior.cs"
+"Assets/Scripts/Player/Character.cs"
+"Assets/Scripts/Player/Movement.cs"
+"Assets/Scripts/Player/PlayerCharacter.cs"
 -langversion:8.0
 
 /deterministic
