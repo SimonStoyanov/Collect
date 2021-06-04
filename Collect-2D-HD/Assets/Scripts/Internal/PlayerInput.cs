@@ -156,9 +156,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Point"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""3a8fc212-6c09-4ccc-bbbc-02851b1b510e"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
@@ -198,7 +198,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": ""TrackedDevicePosition"",
                     ""type"": ""Value"",
                     ""id"": ""bfe341a0-1039-4184-ab90-c525ad74a699"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
@@ -206,7 +206,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": ""TrackedDeviceRotation"",
                     ""type"": ""Value"",
                     ""id"": ""1d97345f-dac9-47f6-bf78-a642ff53fb6a"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Quaternion"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -501,7 +501,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""fd9e3460-2768-47cd-9231-a2ed281df3d7"",
-                    ""path"": ""<Pointer>/press"",
+                    ""path"": ""*/{Point}"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -545,7 +545,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""96e671fc-ec1d-4890-bfac-cc12b2203fdf"",
-                    ""path"": ""<Mouse>/position"",
+                    ""path"": ""<TrackedDevice>/devicePosition"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -556,7 +556,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""fc67414a-5fc0-45af-89b1-f3166dee85b3"",
-                    ""path"": ""<Mouse>/position"",
+                    ""path"": ""<TrackedDevice>/deviceRotation"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

@@ -10,6 +10,7 @@ public class Character : MonoBehaviour
 {
     public string characterName;
     public job_enum job;
+    public Sprite turnSprite;
 
     public static int level;
     public static int exp;
