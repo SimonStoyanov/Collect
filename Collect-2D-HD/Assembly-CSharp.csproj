@@ -58,16 +58,21 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/Internal/fpsCounter.cs" />
-    <Compile Include="Assets/Scripts/Player/Character.cs" />
     <Compile Include="Assets/Scripts/Entities/Interfaces.cs" />
-    <Compile Include="Assets/Scripts/Jobs/Warrior.cs" />
+    <Compile Include="Assets/Scripts/Entities/Player/Jobs/Warrior.cs" />
     <Compile Include="Assets/Scripts/Internal/PlayerInput.cs" />
     <Compile Include="Assets/Scripts/Commands.cs" />
-    <Compile Include="Assets/Scripts/Player/PlayerCharacter.cs" />
-    <Compile Include="Assets/Scripts/Player/Movement.cs" />
-    <Compile Include="Assets/Scripts/Jobs/Apprentice.cs" />
-    <Compile Include="Assets/Scripts/Jobs/ICharacterJob.cs" />
-    <Compile Include="Assets/ChangeEntitySprite.cs" />
+    <Compile Include="Assets/Scripts/Entities/Player/PlayerCharacter.cs" />
+    <Compile Include="Assets/Scripts/Entities/Player/Movement.cs" />
+    <Compile Include="Assets/Scripts/Entities/Player/Jobs/Apprentice.cs" />
+    <Compile Include="Assets/Scripts/Entities/Player/Jobs/ICharacterJob.cs" />
+    <Compile Include="Assets/Scripts/Entities/Entity.cs" />
+    <Compile Include="Assets/Scripts/PlayerBattleHUD.cs" />
+    <Compile Include="Assets/Scripts/Entities/Enemies/EnemyDisplay.cs" />
+    <Compile Include="Assets/Scripts/Internal/Scriptable Objects/ActionSO.cs" />
+    <Compile Include="Assets/Scripts/Internal/Scriptable Objects/ItemSO.cs" />
+    <Compile Include="Assets/Scripts/Internal/Scriptable Objects/EnemySO.cs" />
+    <Compile Include="Assets/Scripts/Internal/ChangeEntitySprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
