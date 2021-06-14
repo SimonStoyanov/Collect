@@ -26,9 +26,11 @@ public class PlayerCharacter : Character, IDamageable<float>, IKillable
     public int agility { get { return currentJob.Agility() + baseAgility;  } }
     public int luck { get { return currentJob.Luck() + baseLuck;  } }
 
+
     void Awake()
     {
         SwitchJob();
+        _LastPosition = transform.position;
     }
 
     private void FixedUpdate()
@@ -36,6 +38,13 @@ public class PlayerCharacter : Character, IDamageable<float>, IKillable
         if (_currentJobEnum != job)
         {
             SwitchJob();
+        }
+
+        if (IsMoving)
+        {
+            GetComponent<UnityEngine.Animator>().SetBool("isWalking", true);
+
+            MoveTowards(_TargetPosition);
         }
     }
 
@@ -64,4 +73,6 @@ public class PlayerCharacter : Character, IDamageable<float>, IKillable
     {
         throw new System.NotImplementedException();
     }
+
+
 }

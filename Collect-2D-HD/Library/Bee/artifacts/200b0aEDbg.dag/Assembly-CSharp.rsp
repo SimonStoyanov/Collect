@@ -350,7 +350,7 @@
 "Assets/Scripts/Commands.cs"
 "Assets/Scripts/Entities/Enemies/EnemyDisplay.cs"
 "Assets/Scripts/Entities/Entity.cs"
-"Assets/Scripts/Entities/Interfaces.cs"
+"Assets/Scripts/Entities/EntityInterfaces.cs"
 "Assets/Scripts/Entities/Player/Jobs/Apprentice.cs"
 "Assets/Scripts/Entities/Player/Jobs/ICharacterJob.cs"
 "Assets/Scripts/Entities/Player/Jobs/Warrior.cs"

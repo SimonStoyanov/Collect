@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Enemy", menuName = "Enemy")]
@@ -9,10 +10,10 @@ public class EnemySO : ScriptableObject
 
     public Sprite turnSprite;
 
-    public Animator animator;
-    public Animation idle_animation;
-    public Animation attack_animation;
-    public Animation death_animation;
+    public AnimatorController animator;
+    public AnimationClip idle_animation;
+    public AnimationClip attack_animation;
+    public AnimationClip death_animation;
 
     public int hp;
     public int mp;

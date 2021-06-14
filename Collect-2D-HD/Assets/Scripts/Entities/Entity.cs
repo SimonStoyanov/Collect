@@ -23,32 +23,29 @@ public enum item_enum
 
 public class Entity : MonoBehaviour, IComparable<Entity>
 {
+    [HideInInspector]
     public Sprite turnSprite;
 
     [HideInInspector]
-    public int baseHP;
-    [HideInInspector]
-    public int baseMP;
-    [HideInInspector]
-    public int basePhysAttack;
-    [HideInInspector]
-    public int baseMagAttack;
-    [HideInInspector]
-    public int basePhysDefense;
-    [HideInInspector]
-    public int baseMagDefense;
-    [HideInInspector]
-    public int baseAgility;
-    [HideInInspector]
-    public int baseLuck;
+    public int baseHP, baseMP, basePhysAttack, baseMagAttack, basePhysDefense, baseMagDefense, baseAgility, baseLuck;
 
     public bool isPlayer { get; set; }
+    public bool isDead { get; set; }
 
     // private variables
     private Character character;
     private Enemy enemy;
     private int currentAgility;
 
+    // Movement
+    private bool isMoving = false;
+    public bool IsMoving { get => isMoving; set => isMoving = value; }
+    private Vector3 lastPosition;
+    public Vector3 _LastPosition { get => lastPosition; set => lastPosition = value; }
+    private Vector3 targetPosition;
+    public Vector3 _TargetPosition { get => targetPosition; set => targetPosition = value; }
+
+    // Entity
     public Character _Character { get => character; set => character = value; }
     public Enemy _Enemy { get => enemy; set => enemy = value; }
     public int _CurrentAgility { get => currentAgility; set => currentAgility = value; }
@@ -73,11 +70,26 @@ public class Entity : MonoBehaviour, IComparable<Entity>
     {
         return Random.Range(min, max);
     }
+
+    float t = 0;
+    float lerpTime = 7.5f;
+    public void MoveTowards(Vector3 targetPos)
+    {
+        transform.position = Vector3.Lerp(transform.position, targetPos, lerpTime * Time.deltaTime);
+        t = Mathf.Lerp(t, 1f, lerpTime * Time.deltaTime);
+
+        if (t > 0.9999f)
+        {
+            t = 0;
+            isMoving = false;
+            GetComponent<Animator>().SetBool("isWalking", false);
+        }
+    }
 }
 
 public class Character : Entity
 {
-    public Character() { _Character = this; isPlayer = true; }
+    public Character() { _Character = this; isPlayer = true; isDead = false; }
 
     public string characterName;
     public job_enum job;
@@ -87,14 +99,27 @@ public class Character : Entity
     public static int exp_next;
 }
 
-public class Enemy : Entity //, IStealable
+public class Enemy : Entity, IDamageable<int> //, IStealable
 {
-    public Enemy() { _Enemy = this; isPlayer = false; }
+    public Enemy() { _Enemy = this; isPlayer = false; isDead = false; }
 
+    [HideInInspector]
     public string enemyName;
+    [HideInInspector]
     public enemy_enum enemy_type;
 
     public static int exp_given;
-    public static item_enum item_0;
-    public static item_enum item_1;
+    public static ItemSO item_0;
+    public static ItemSO item_1;
+
+    public void Damage(int damage)
+    {
+        baseHP -= damage;
+
+        if (baseHP <= 0)
+        {
+            baseHP = 0;
+            isDead = true;
+        }
+    }
 }

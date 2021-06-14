@@ -478,8 +478,8 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""01693704-6738-4920-b129-8808fbc429de"",
-                    ""path"": ""<Keyboard>/backspace"",
+                    ""id"": ""9d32c2df-8dd5-410b-9117-7bc66c7ae55d"",
+                    ""path"": ""<Keyboard>/x"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -489,8 +489,8 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9d32c2df-8dd5-410b-9117-7bc66c7ae55d"",
-                    ""path"": ""<Keyboard>/x"",
+                    ""id"": ""01693704-6738-4920-b129-8808fbc429de"",
+                    ""path"": ""<Keyboard>/backspace"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   description: 
-  turnSprite: {fileID: 0}
-  animator: {fileID: 0}
-  idle_animation: {fileID: 0}
+  turnSprite: {fileID: 3225832317793331946, guid: afcdbdb072af2417387981ddd12c52e9,
+    type: 3}
+  animator: {fileID: 9100000, guid: 8b7347b85bc12442799447e65751c681, type: 2}
+  idle_animation: {fileID: 7400000, guid: 3748db26112c1418c87ca17fbee8183d, type: 2}
   attack_animation: {fileID: 0}
   death_animation: {fileID: 0}
   hp: 10
